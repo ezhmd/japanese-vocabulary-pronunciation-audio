@@ -1,0 +1,23 @@
+{
+  "name": "japanese-vocabulary-pronunciation-audio",
+  "version": "1.0.0",
+  "description": "Japanese vocabulary pronunciation audio from WaniKani and Tofugu",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "make-index": "node ./index-maker.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ezhmd@github.com/ezhmd/japanese-vocabulary-pronunciation-audio.git"
+  },
+  "author": "Ezzat Chamudi",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/ezhmd/japanese-vocabulary-pronunciation-audio/issues"
+  },
+  "homepage": "https://github.com/ezhmd/japanese-vocabulary-pronunciation-audio#readme"
+}
