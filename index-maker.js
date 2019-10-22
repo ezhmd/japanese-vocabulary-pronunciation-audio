@@ -15,4 +15,4 @@ files = files.map((fileName) => {
     };
 });
 
-fs.writeFileSync('./index.json', JSON.stringify(files, null, 2), 'utf8');
+fs.writeFileSync('./dist/wk-audio-index.json', JSON.stringify(files, null, 1), 'utf8');
